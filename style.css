@@ -12,7 +12,7 @@ input{
 .maindiv{
     display: flex;
     flex-wrap: wrap;
-  background-image: url(images/weather.avif);
+  background-image: url(weather.avif);
   background-repeat: no-repeat;
   background-size: cover;
   height: 940px;
