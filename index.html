@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="city item">
+            <div class="SearchCity">
+                <h2>Search City :</h2>
+                <input type="text"  id="searchnput" placeholder="Search Here......">
+
+                    
+                <ul id="CipyList">
+                    <li onclick="showTemp('Chittagong')">Chittagong</li>
+                    <li onclick="showTemp('Dhaka')">Dhaka</li>
+                    <li onclick="showTemp('Gazipur')">Gazipur</li>
+                    <li onclick="showTemp('Chandpur')">Chandpur</li>
+                    <li onclick="showTemp('Sylhet')">Sylhet</li>
+                    <li onclick="showTemp('Feni')">Feni</li>
+                    <li onclick="showTemp('Khulna')">Khulna</li>
+                    <li onclick="showTemp('Rajshahi')">Rajshahi</li>
+                    <li onclick="showTemp('Barisal')">Barisal</li>
+                    <li onclick="showTemp('Mymensingh')">Mymensingh</li>
+                    <li onclick="showTemp('Cumilla')">Cumilla</li>
+                    <li onclick="showTemp('Rangpur')">Rangpur</li>
+                    <li onclick="showTemp('Noakhali')">Noakhali</li>
+                    <li onclick="showTemp('Sirajganj')">Sirajganj</li>
+                    <li onclick="showTemp('Dinajpur')">Dinajpur</li>
+                    <li onclick="showTemp('Tangail')">Tangail</li>
+                    <li onclick="showTemp('Jamalpur')">Jamalpur</li>
+                    <li onclick="showTemp('Faridpur')">Faridpur</li>
+                    <li onclick="showTemp('Cox\'s Bazar')">Cox's Bazar</li>
+                </ul>
+               
+               
+            </div>
+        </div>
+        <div class="details item">
+            <h2 id="schity"></h2>
+            <h1 id="temp"> </h1>
+            <button id="cel"><span class="c">&#8451;</span></button>
+            <button id="far" ><span class="f">&#8457;</span></button>
+        </div>
+        <div class="more item">
+            <table border="1px solid black">
+                <tr>
+                    <td><img width="20%" src="images/cloudy.png" alt=""></td>
+                    <td><h3><span id="weather"></span></h3></td>
+                </tr>
+                <tr>
+                    <td><img width="20%" src="images/humidity.png" alt=""></td>
+                    <td><h3><span id="Humidity"></span></h3></td>
+                </tr>
+                <tr>
+                    <td><img width="20%" src="images/fresh-air.png" alt=""></td>
+                    <td><h3><span id="Pressure"></span></h3></td>
+                </tr>
+                <tr>
+                    <td><img width="20%" src="images/fever.png" alt=""></td>
+                    <td><h3><span id="Temp_max"></span><span class="c">&#8451;</span></h3></td>
+                </tr>
+                <tr>
+                    <td><img width="20%" src="images/low-temperature.png" alt=""></td>
+                    <td><h3><span id="Temp_min"></span><span class="c">&#8451;</span></h3></td>
+                </tr>
+                <tr>
+                    <td><img width="20%" src="images/clock.png" alt=""></td>
+                    <td><h3><span id="Timezone"></span></h3></td>
+                </tr>
+                <tr>
+                    <td><img width="20%" src="images/wind.png" alt=""></td>
+                    <td><h3><span id="wind"></span></h3></td>
+                </tr>
+                
+            </table>
+            
+        </div>
+    </div>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="script.js"></script>
+</body>
+</html>

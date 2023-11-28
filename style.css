@@ -1,0 +1,96 @@
+input{
+    width: 80%;
+    border: none;
+    padding: 10px 15px;
+}
+
+.active{
+    background: red;;
+}
+
+
+.maindiv{
+    display: flex;
+    flex-wrap: wrap;
+  background-image: url(images/weather.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 940px;
+}
+.maindiv .item{
+    padding: 20px;
+    flex: 15%;
+}
+.maindiv .city{
+    background-color: #f6e58d;
+    opacity: 0.8;
+}
+
+.maindiv .city ul li{
+    cursor: pointer;
+    padding:10px 0px;
+    border-bottom: 2px solid #4a69bd;
+    font-size: 17px;
+}
+
+
+.maindiv .details{
+    background: #2f3542;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+}
+.maindiv .details h2{
+    color: #1e90ff;
+    font-size: 50px;
+    padding-top: 20%;
+}
+.maindiv .details h1{
+    font-size: 100px;
+    color: #fffa65;
+    box-shadow: -1px 2px 38px 1px rgba(255,250,101,0.75);
+    -webkit-box-shadow: -1px 2px 38px 1px rgba(255,250,101,0.75);
+    -moz-box-shadow: -1px 2px 38px 1px rgba(255,250,101,0.75);
+    border-radius: 10px;
+    padding: 50px 0px;
+}
+
+.maindiv .details .c{
+    color: #6c5ce7;
+    cursor: pointer;
+    font-size: 20px;
+}
+.maindiv .details .f{
+    color: #130f40;
+    cursor: pointer;
+    font-size: 20px;
+}
+.maindiv .more{
+    background: white;
+    opacity: 0.8;
+}
+.maindiv .more h3{
+    color: #192a56;
+}
+.maindiv .more h3 span{
+    color: #EA2027;
+}
+tr td{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+table{
+    margin-top: 25%;
+}
+button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 2px;
+    margin: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: #EA2027;
+
+}
